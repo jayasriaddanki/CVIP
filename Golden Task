@@ -1,0 +1,9 @@
+import string as s
+import random as r
+splChar = "!@#$%^&*+_\?"
+print(splChar)
+random_passwd = r.sample(splChar+s.digits + s.ascii_letters, 8)
+print(s.digits)
+print(s.ascii_letters)
+random_passwd = "".join(passwd)
+print("Random Password-->:",random_passwd)
